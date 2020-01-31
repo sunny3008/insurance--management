@@ -1,0 +1,33 @@
+c:\users\sunny\documents\visual studio 2010\Projects\insurance\insurance\bin\Debug\insurance.exe
+c:\users\sunny\documents\visual studio 2010\Projects\insurance\insurance\bin\Debug\insurance.pdb
+c:\users\sunny\documents\visual studio 2010\Projects\insurance\insurance\obj\x86\Debug\insurance.Form1.resources
+c:\users\sunny\documents\visual studio 2010\Projects\insurance\insurance\obj\x86\Debug\insurance.Form2.resources
+c:\users\sunny\documents\visual studio 2010\Projects\insurance\insurance\obj\x86\Debug\insurance.Form3.resources
+c:\users\sunny\documents\visual studio 2010\Projects\insurance\insurance\obj\x86\Debug\insurance.Form4.resources
+c:\users\sunny\documents\visual studio 2010\Projects\insurance\insurance\obj\x86\Debug\insurance.Properties.Resources.resources
+c:\users\sunny\documents\visual studio 2010\Projects\insurance\insurance\obj\x86\Debug\insurance.csproj.GenerateResource.Cache
+c:\users\sunny\documents\visual studio 2010\Projects\insurance\insurance\obj\x86\Debug\insurance.exe
+c:\users\sunny\documents\visual studio 2010\Projects\insurance\insurance\obj\x86\Debug\insurance.pdb
+C:\Users\Sunny\documents\visual studio 2010\Projects\insurance\insurance\bin\Debug\insurance.exe.config
+C:\Users\Sunny\documents\visual studio 2010\Projects\insurance\insurance\obj\x86\Debug\insurance.Form5.resources
+C:\Users\Sunny\Documents\Visual Studio 2010\Projects\insurance\insurance\obj\x86\Debug\insurance.Form6.resources
+C:\Users\Sunny\documents\visual studio 2010\Projects\insurance\insurance\obj\x86\Debug\insurance.csprojResolveAssemblyReference.cache
+E:\insurance\insurance\bin\Debug\insurance.exe.config
+E:\insurance\insurance\obj\x86\Debug\insurance.exe
+E:\insurance\insurance\obj\x86\Debug\insurance.pdb
+E:\insurance\insurance\bin\Debug\insurance.exe
+E:\insurance\insurance\bin\Debug\insurance.pdb
+E:\insurance\insurance\obj\x86\Debug\insurance.Form1.resources
+E:\insurance\insurance\obj\x86\Debug\insurance.Form2.resources
+E:\insurance\insurance\obj\x86\Debug\insurance.Form3.resources
+E:\insurance\insurance\obj\x86\Debug\insurance.Form4.resources
+E:\insurance\insurance\obj\x86\Debug\insurance.Form5.resources
+E:\insurance\insurance\obj\x86\Debug\insurance.Form6.resources
+E:\insurance\insurance\obj\x86\Debug\insurance.Properties.Resources.resources
+E:\insurance\insurance\obj\x86\Debug\insurance.csproj.GenerateResource.Cache
+E:\insurance\insurance\obj\x86\Debug\insurance.agent_log.resources
+E:\insurance\insurance\obj\x86\Debug\insurance.Edit_agent.resources
+E:\insurance\insurance\obj\x86\Debug\insurance.csprojResolveAssemblyReference.cache
+E:\insurance\insurance\obj\x86\Debug\insurance.Form7.resources
+E:\insurance\insurance\obj\x86\Debug\insurance.report.resources
+E:\insurance\insurance\obj\x86\Debug\insurance.agentreport.resources

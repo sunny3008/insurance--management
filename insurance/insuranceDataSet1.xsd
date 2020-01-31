@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="insuranceDataSet1" targetNamespace="http://tempuri.org/insuranceDataSet1.xsd" xmlns:mstns="http://tempuri.org/insuranceDataSet1.xsd" xmlns="http://tempuri.org/insuranceDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="insuranceConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="insuranceConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.insurance.Properties.Settings.GlobalReference.Default.insuranceConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="clientTableAdapter" GeneratorDataComponentClassName="clientTableAdapter" Name="client" UserDataComponentName="clientTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="insuranceConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `agent_id`, `ph_id`, `name`, `address`, `phone`, `amount`, `pol_dur`, `type`, `iodate` FROM `insurance`.`client`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="agent_id" DataSetColumn="agent_id" />
+              <Mapping SourceColumn="ph_id" DataSetColumn="ph_id" />
+              <Mapping SourceColumn="name" DataSetColumn="name" />
+              <Mapping SourceColumn="address" DataSetColumn="address" />
+              <Mapping SourceColumn="phone" DataSetColumn="phone" />
+              <Mapping SourceColumn="amount" DataSetColumn="amount" />
+              <Mapping SourceColumn="pol_dur" DataSetColumn="pol_dur" />
+              <Mapping SourceColumn="type" DataSetColumn="type" />
+              <Mapping SourceColumn="iodate" DataSetColumn="iodate" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="insuranceDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="insuranceDataSet1" msprop:Generator_UserDSName="insuranceDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="client" msprop:Generator_TableClassName="clientDataTable" msprop:Generator_TableVarName="tableclient" msprop:Generator_TablePropName="client" msprop:Generator_RowDeletingName="clientRowDeleting" msprop:Generator_RowChangingName="clientRowChanging" msprop:Generator_RowEvHandlerName="clientRowChangeEventHandler" msprop:Generator_RowDeletedName="clientRowDeleted" msprop:Generator_UserTableName="client" msprop:Generator_RowChangedName="clientRowChanged" msprop:Generator_RowEvArgName="clientRowChangeEvent" msprop:Generator_RowClassName="clientRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="agent_id" msprop:Generator_ColumnVarNameInTable="columnagent_id" msprop:Generator_ColumnPropNameInRow="agent_id" msprop:Generator_ColumnPropNameInTable="agent_idColumn" msprop:Generator_UserColumnName="agent_id">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ph_id" msprop:Generator_ColumnVarNameInTable="columnph_id" msprop:Generator_ColumnPropNameInRow="ph_id" msprop:Generator_ColumnPropNameInTable="ph_idColumn" msprop:Generator_UserColumnName="ph_id">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnPropNameInTable="nameColumn" msprop:Generator_UserColumnName="name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="address" msprop:Generator_ColumnVarNameInTable="columnaddress" msprop:Generator_ColumnPropNameInRow="address" msprop:Generator_ColumnPropNameInTable="addressColumn" msprop:Generator_UserColumnName="address" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="phone" msprop:Generator_ColumnVarNameInTable="columnphone" msprop:Generator_ColumnPropNameInRow="phone" msprop:Generator_ColumnPropNameInTable="phoneColumn" msprop:Generator_UserColumnName="phone" type="xs:int" minOccurs="0" />
+              <xs:element name="amount" msprop:Generator_ColumnVarNameInTable="columnamount" msprop:Generator_ColumnPropNameInRow="amount" msprop:Generator_ColumnPropNameInTable="amountColumn" msprop:Generator_UserColumnName="amount" type="xs:int" minOccurs="0" />
+              <xs:element name="pol_dur" msprop:Generator_ColumnVarNameInTable="columnpol_dur" msprop:Generator_ColumnPropNameInRow="pol_dur" msprop:Generator_ColumnPropNameInTable="pol_durColumn" msprop:Generator_UserColumnName="pol_dur" type="xs:int" minOccurs="0" />
+              <xs:element name="type" msprop:Generator_ColumnVarNameInTable="columntype" msprop:Generator_ColumnPropNameInRow="type" msprop:Generator_ColumnPropNameInTable="typeColumn" msprop:Generator_UserColumnName="type">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="iodate" msprop:Generator_ColumnVarNameInTable="columniodate" msprop:Generator_ColumnPropNameInRow="iodate" msprop:Generator_ColumnPropNameInTable="iodateColumn" msprop:Generator_UserColumnName="iodate" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:client" />
+      <xs:field xpath="mstns:agent_id" />
+      <xs:field xpath="mstns:ph_id" />
+      <xs:field xpath="mstns:type" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
